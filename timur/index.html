@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+		<title>Contribution Graph</title>
+	</head>
+	<body>
+		<div class="container" style="padding: 1rem;">
+			<h1>Contribution Graph</h1>
+			<div class="graph">
+				<ul class="months"></ul>
+				<ul class="days">
+					<li>Mon</li>
+					<li>Tue</li>
+					<li>Wed</li>
+					<li>Thu</li>
+					<li>Fri</li>
+					<li>Sat</li>
+				</ul>
+
+				<ul class="squares">
+					<!-- added via javascript -->
+				</ul>
+			</div>
+			<div class="chart">
+				<p>Меньше</p>
+				<div class="child">
+					<div class="popup">
+						<p>0 contributions</p>
+					</div>
+				</div>
+				<div class="child">
+					<div class="popup">
+						<p>1-9 contributions</p>
+					</div>
+				</div>
+				<div class="child">
+					<div class="popup">
+						<p>10-19 contributions</p>
+					</div>
+				</div>
+				<div class="child">
+					<div class="popup">
+						<p>20-29 contributions</p>
+					</div>
+				</div>
+				<div class="child">
+					<div class="popup">
+						<p>30+ contributions</p>
+					</div>
+				</div>
+				<p>Больше</p>
+			</div>
+
+		</div>
+		<script src="./helper.js"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
